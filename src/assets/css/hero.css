@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --dark-gray: #313131;
+  --hightlight-text: #814934;
+  --yellow-bg: #e6a83c50;
+  --bg: #ede8db;
+}
+.cont {
+  padding-inline: 20%;
+  padding-block: 2.5%;
+  height: 100vh;
+  width: 100%;
+  background-color: #ececec50;
+  background-image: url("../svgs/hero-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+#title {
+  font-weight: 800;
+  max-width: 450px;
+  font-size: 4rem;
+  line-height: 75px;
+  color: #313131;
+}
+#business {
+  color: var(--hightlight-text);
+}
+p {
+  font-weight: 500;
+  text-align: justify;
+}
+#buy {
+  background-color: #814934 !important;
+  transition: 0.5s ease;
+}
+#buy:hover {
+  background-color: #814934 !important;
+  transform: scale(1.1);
+}
+
+#see {
+  background-color: white !important;
+  transition: 0.5s ease;
+}
+#see:hover {
+  background-color: white !important;
+  transform: scale(1.1);
+}
+
+#farm3d {
+  width: 750px;
+  margin-left: 10vw;
+  margin-top: 35vh;
+  filter: brightness(90%);
+  user-select: none;
+}
+
+#fv1,
+#fv2,
+#fv3,
+#fv4 {
+  position: absolute;
+  width: 150px;
+  filter: brightness(125%);
+  user-select: none;
+}
+
+#fv1 {
+  right: 35vh;
+  top: 12.5vh;
+  margin-top: 10vh;
+}
+#fv2 {
+  right: 15vh;
+  top: 22.5vh;
+  margin-top: 10vh;
+}
+
+#fv3 {
+  right: 55vh;
+  top: 22.5vh;
+  margin-top: 10vh;
+}

@@ -1,0 +1,49 @@
+:root {
+  --dark-gray: #313131;
+  --hightlight-text: #814934;
+  --yellow-bg: #e6a83c50;
+  --bg: #ede8db;
+  --main-bg: rgb(238, 242, 246);
+}
+.wwd {
+  padding-inline: 20%;
+  padding-block: 2.5%;
+  height: 80vh;
+  background-color: var(--main-bg);
+  width: 100%;
+}
+
+#wwd3d {
+  width: 600px;
+  margin-right: 15vw;
+  filter: brightness(90%);
+}
+#wwd3d:hover {
+  transform: translateX(150px);
+}
+
+.wwdbg {
+  border-radius: 15px;
+  background-image: url("../imgs/wwd.jpeg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.why {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: start;
+  justify-content: center;
+}
+
+.discover {
+  background-color: #814934 !important;
+  transition: 0.5s ease;
+}
+.discover:hover {
+  background-color: #814934 !important;
+  transform: scaleX(1.1);
+}
